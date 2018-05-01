@@ -1,10 +1,3 @@
-/**
- * Short Memory Examples
- * - Scatterplot
- * - Line Chart
- * - Arc Grid
- */
-
 import mqtt.*;
 
 ArrayList<Float> list = new ArrayList<Float>();

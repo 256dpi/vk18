@@ -1,11 +1,3 @@
-/**
- * Direct Mapping Examples
- * - Background Color
- * - Circle Diameter
- * - Rectangle Width
- * - Line Angle
- */
-
 import mqtt.*;
 
 MQTTClient client;
