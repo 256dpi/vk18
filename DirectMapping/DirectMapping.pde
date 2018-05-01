@@ -6,16 +6,11 @@ float v = 0;
 
 void setup() {
   size(1280, 720, P3D);
-  //fullScreen(P3D);
+  smooth(8);
 
   client = new MQTTClient(this);
   client.connect("mqtt://0.0.0.0:11883", "processing");
   client.subscribe("p7/dst");
-
-  smooth(8);
-  background(0);
-  
-  // 98,66,255
 }
 
 void draw() {

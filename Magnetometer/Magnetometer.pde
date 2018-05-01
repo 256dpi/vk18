@@ -12,6 +12,7 @@ float offY = 0;
 
 void setup() {
   size(1280, 720, P3D);
+  smooth(8);
 
   client = new MQTTClient(this);
   client.connect("mqtt://0.0.0.0:11883", "processing");
