@@ -18,7 +18,7 @@ void setup() {
 
   client = new MQTTClient(this);
   client.connect("mqtt://0.0.0.0:11883", "processing");
-  client.subscribe("p7/tof");
+  client.subscribe("p7/dst");
 
   smooth(8);
   background(0);
