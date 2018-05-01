@@ -19,11 +19,11 @@ void draw() {
   strokeWeight(5);
   noStroke();
 
-  /* 1. Scatterplot */
+  /* 1. Circles */
   //fill(98, 66, 255);
   //for(int i=0; (i < list.size()); i++) {
-  //  float v = map(list.get(i), 0, 1300, 0, height);
-  //  ellipse(i*20, height-v, 10, 10);
+  //  float v = constrain(map(list.get(i), 0, 500, 0, 20), 0, 20);
+  //  ellipse(i*20, height/2, v, v);
   //}
 
   /* 2. Line Chart */
