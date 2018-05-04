@@ -15,7 +15,7 @@ void setup() {
   smooth(8);
 
   client = new MQTTClient(this);
-  client.connect("mqtt://0.0.0.0:11883", "processing");
+  client.connect("mqtt://0.0.0.0:1883", "processing");
   client.subscribe("p7/mag");
   
   background(0);
